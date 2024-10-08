@@ -52,5 +52,18 @@ By normalising the data and establishing relationships between the tables, the d
 
 - **Foundation for Growth**: The database establishes a solid foundation for future data analysis, reporting, and integration with business intelligence tools, positioning the brand for future scalability and improved decision-making.
 
+## The Database: Creating the Tables
 
+The database for FOG Clothing Brand consists of four main tables: `customers`, `products`, `collections`, and `sales`. Each table is structured to store relevant information and maintain relationships between data entities. Below is the SQL code used to create these tables.
+
+### 1. `customers` Table
+
+This table stores the details of each customer, including their unique ID, name, and location.
+
+```sql
+CREATE TABLE IF NOT EXISTS customers (
+    customerID INT PRIMARY KEY AUTO_INCREMENT,
+    customerName VARCHAR(30),
+    customerLocation VARCHAR(20)
+);```
 
