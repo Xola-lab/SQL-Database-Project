@@ -25,9 +25,32 @@ This database lays the foundation for enhanced business intelligence, empowering
 
 ## Executive Summary:
 
-This project demonstrates the application of SQL database design to streamline and organise business data for improved management and analysis. I created a structured database to enhance data accessibility and ensure consistency, with properly defined relationships between customers, products, collections, and sales. This provides a scalable foundation for further business insights and reporting, enabling efficient data-driven decisions for FOG Clothing. Through this database, the brand can easily manage its data and set the groundwork for future expansion into advanced analytics and business intelligence.
+This project focuses on creating a structured and scalable database for FOG Clothing, a growing fashion brand, by organising previously unstructured sales data. The objective was to design a robust SQL database that could store customer, product, collection, and sales information in a way that enables efficient querying and data analysis.
+
+By normalising the data and establishing relationships between the tables, the database provides FOG Clothing with a solid foundation for tracking sales trends, managing inventory, and optimising business decisions. The project not only resolves inconsistencies in the raw data but also opens opportunities for future integration with analytical tools, empowering the brand to leverage its data for strategic growth.
+
 
 <p align="center">
 <img src="Sales ERD.png">
 </p>
+
+### Skills Employed:
+
+- **SQL Database Design**: Created normalised tables with foreign key relationships to maintain data integrity and optimise database performance.
+
+- **Data Modeling**: Developed a schema to capture essential business elements—customers, products, collections, and sales—enabling meaningful data connections.
+
+- **Data Insertion & Manipulation**: Efficiently inserted sales data, ensuring proper handling of foreign key relationships and cascading updates/deletions.
+
+- **Problem Solving**: Resolved data inconsistencies and handled missing data (e.g., sales with incomplete addresses).
+
+### Impact:
+
+- **Data Organisation**: Transformed fragmented, unstructured sales data into an organised, queryable database, allowing easy access and analysis.
+
+- **Business Efficiency**: By centralising sales and product data, the database supports FOG Clothing’s ability to track sales trends, manage inventory, and make informed decisions.
+
+- **Foundation for Growth**: The database establishes a solid foundation for future data analysis, reporting, and integration with business intelligence tools, positioning the brand for future scalability and improved decision-making.
+
+
 
