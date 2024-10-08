@@ -1,4 +1,9 @@
 # SQL Database for a Clothing Brand
+
+<p align="center">
+<img src="20241006_025152_0000.png">
+</p>
+
 ## Background and Overview:
 
 FOG Clothing Brand, a local fashion label, had been tracking its sales data manually, without recording vital details like dates. The data, stored in a text file, lacked structure, making it difficult to analyse trends or draw insights. To support the brand’s growth, I volunteered to design and implement a relational database to better manage their sales data and improve decision-making.
