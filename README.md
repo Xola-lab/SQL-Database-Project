@@ -1,7 +1,7 @@
 # SQL Database for a Clothing Brand
 
 <p align="center">
-<img src="fogtee.png">
+<img src="fogtee.jpg">
 </p>
 
 ## Background and Overview:
