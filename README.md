@@ -8,7 +8,7 @@
 
 FOG Clothing Brand, a local fashion label, had been tracking its sales data manually, without recording vital details like dates. The data, stored in a text file, lacked structure, making it difficult to analyse trends or draw insights. To support the brand’s growth, I volunteered to design and implement a relational database to better manage their sales data and improve decision-making.
 
-This project involves the creation of a comprehensive SQL database for FOG Clothing Brand. The database includes key entities such as customers, products, collections, and sales. By organising this data into structured tables, the project enables efficient storage, retrieval, and management of sales information. The database also supports future analytical capabilities, such as sales trend visualisation and customer behaviour analysis.
+This project involves the creation of a comprehensive SQL database for FOG Clothing Brand (See the SQL script [here]()). The database includes key entities such as customers, products, collections, and sales. By organising this data into structured tables, the project enables efficient storage, retrieval, and management of sales information. The database also supports future analytical capabilities, such as sales trend visualisation and customer behaviour analysis.
 
 ## Data Structure:
 
@@ -112,13 +112,14 @@ CREATE TABLE IF NOT EXISTS sales (
 
 ## The Database: Data Insertion
 
-Having created the necessary tables, I then inserted the data to populate the tables. Below is an example of how data was inserted into these tables using SQL `INSERT INTO` statements.
+Having created the necessary tables, I then inserted the data to populate the tables. Below is an example of how data was inserted into these tables using SQL **INSERT INTO** statements.
 
-### Example: Inserting Data into the `customers` Table
+### Example: Inserting Data into the **customers** Table
 
-The following SQL query demonstrates how a customer's information was inserted into the `customers` table.
+The following SQL query demonstrates how a customer's information was inserted into the customers table.
 
 ```sql
 INSERT INTO customers (customerName, customerLocation)
 VALUES ('Thembekile Nyembezi', 'Dobsonville');
 ```
+This method was repeated for all records, populating the database with customer information, product listings, collections, and sales transactions.
