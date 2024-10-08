@@ -12,20 +12,20 @@ This project involves the creation of a comprehensive SQL database for FOG Cloth
 
 ## Data Structure:
 
-- Customers: Stores customer details like names and locations.
+- **Customers**: Stores customer details like names and locations.
 
-- Products: Contains product information including name and price.
+- **Products**: Contains product information including name and price.
 
-- Collections: Includes different clothing collections offered by FOG.
+- **Collections**: Includes different clothing collections offered by FOG.
 
-- Sales: Records sales transactions, linking customers, products, and collections.
+- **Sales**: Records sales transactions, linking customers, products, and collections.
 
 
 This database lays the foundation for enhanced business intelligence, empowering the brand to track performance and make data-driven decisions.
 
 ## Executive Summary:
 
-This project demonstrates the application of SQL database design to streamline and organize business data for improved management and analysis. I created a structured database to enhance data accessibility and ensure consistency, with properly defined relationships between customers, products, collections, and sales. This provides a scalable foundation for further business insights and reporting, enabling efficient data-driven decisions for FOG Clothing. Through this database, the brand can easily manage its data and set the groundwork for future expansion into advanced analytics and business intelligence.
+This project demonstrates the application of SQL database design to streamline and organise business data for improved management and analysis. I created a structured database to enhance data accessibility and ensure consistency, with properly defined relationships between customers, products, collections, and sales. This provides a scalable foundation for further business insights and reporting, enabling efficient data-driven decisions for FOG Clothing. Through this database, the brand can easily manage its data and set the groundwork for future expansion into advanced analytics and business intelligence.
 
 <p align="center">
 <img src="Sales ERD.png">
