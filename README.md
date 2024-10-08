@@ -123,3 +123,11 @@ INSERT INTO customers (customerName, customerLocation)
 VALUES ('Thembekile Nyembezi', 'Soweto');
 ```
 This method was repeated for all records, populating the database with customer information, product listings, collections, and sales transactions.
+
+## Conclusion
+
+In conclusion, the FOG Clothing sales database project has successfully established a structured and efficient system for managing sales data. By creating a relational database, we have streamlined the process of tracking customer purchases, product information, and sales records.
+
+The project has not only enhanced data accessibility but also provided valuable insights into customer behaviour and product performance. This database will serve as a vital tool for decision-making and strategic planning for FOG Clothing. 
+
+Moving forward, further analyses and visualisations can be implemented to extract deeper insights, enabling the brand to optimise its operations and enhance customer satisfaction.
