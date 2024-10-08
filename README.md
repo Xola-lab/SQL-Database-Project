@@ -109,3 +109,16 @@ CREATE TABLE IF NOT EXISTS sales (
 );
 ```
 **Conclusion**: These tables form the backbone of the FOG Clothing Brand database, enabling data organisation and retrieval for various business operations.
+
+## The Database: Data Insertion
+
+Having created the necessary tables, I then inserted the data to populate the tables. Below is an example of how data was inserted into these tables using SQL `INSERT INTO` statements.
+
+### Example: Inserting Data into the `customers` Table
+
+The following SQL query demonstrates how a customer's information was inserted into the `customers` table.
+
+```sql
+INSERT INTO customers (customerName, customerLocation)
+VALUES ('Thembekile Nyembezi', 'Dobsonville');
+```
