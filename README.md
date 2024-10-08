@@ -54,9 +54,9 @@ By normalising the data and establishing relationships between the tables, the d
 
 ## The Database: Creating the Tables
 
-The database for FOG Clothing Brand consists of four main tables: `customers`, `products`, `collections`, and `sales`. Each table is structured to store relevant information and maintain relationships between data entities. Below is the SQL code used to create these tables.
+The database for FOG Clothing Brand consists of four main tables: Customers, Products, Collections, and Sales. Each table is structured to store relevant information and maintain relationships between data entities. Below is the SQL code used to create these tables.
 
-### 1. `customers` Table
+### 1. **Customers** Table
 
 This table stores the details of each customer, including their unique ID, name, and location.
 
@@ -65,5 +65,47 @@ CREATE TABLE IF NOT EXISTS customers (
     customerID INT PRIMARY KEY AUTO_INCREMENT,
     customerName VARCHAR(30),
     customerLocation VARCHAR(20)
-);```
+);
+```
 
+### 2. **Products** Table
+
+This table stores the product information, including each product’s unique ID, name, and price.
+
+```sql
+CREATE TABLE IF NOT EXISTS products (
+    productID INT PRIMARY KEY AUTO_INCREMENT,
+    productName VARCHAR(30),
+    productPrice DECIMAL(10, 2)
+);
+```
+
+### 3. **Collections** Table
+
+This table stores the details of product collections, which includes a unique ID, collection name, and price.
+
+```sql
+CREATE TABLE IF NOT EXISTS collections (
+    collectionID INT PRIMARY KEY AUTO_INCREMENT,
+    collectionName VARCHAR(30),
+    collectionPrice DECIMAL(10, 2)
+);
+```
+### 4. **Sales** Table
+
+The sales table records each transaction, linking customers, products, and collections, and storing the purchase details.
+
+```sql
+CREATE TABLE IF NOT EXISTS sales (
+    saleID INT PRIMARY KEY AUTO_INCREMENT,
+    custID INT,
+    prodID INT,
+    collID INT,
+    saleAddress VARCHAR(100),
+    purchaseTotal DECIMAL(10, 2),
+    FOREIGN KEY (custID) REFERENCES customers(customerID) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (prodID) REFERENCES products(productID) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (collID) REFERENCES collections(collectionID) ON DELETE CASCADE ON UPDATE CASCADE
+);
+```
+**Conclusion**: These tables form the backbone of the FOG Clothing Brand database, enabling data organisation and retrieval for various business operations.
