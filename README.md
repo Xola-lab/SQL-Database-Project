@@ -8,7 +8,7 @@
 
 FOG Clothing Brand, a local fashion label, had been tracking its sales data manually, without recording vital details like dates. The data, stored in a text file, lacked structure, making it difficult to analyse trends or draw insights. To support the brand’s growth, I volunteered to design and implement a relational database to better manage their sales data and improve decision-making.
 
-This project involves the creation of a comprehensive SQL database for FOG Clothing Brand (View the SQL script [here](fog db.sql)). The database includes key entities such as customers, products, collections, and sales. By organising this data into structured tables, the project enables efficient storage, retrieval, and management of sales information. The database also supports future analytical capabilities, such as sales trend visualisation and customer behaviour analysis.
+This project involves the creation of a comprehensive SQL database for FOG Clothing Brand (View the SQL script [here](https://github.com/Xola-lab/SQL-Database-Project/blob/main/fog%20db.sql)). The database includes key entities such as customers, products, collections, and sales. By organising this data into structured tables, the project enables efficient storage, retrieval, and management of sales information. The database also supports future analytical capabilities, such as sales trend visualisation and customer behaviour analysis.
 
 ## Data Structure:
 
